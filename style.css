@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Raleway:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Raleway:wght@100;300;400;500;700&display=swap');
+
+body{
+    margin: 0 auto;
+    width: 1600px;
+}
+
+header{
+    height: 1000px;
+    background-image: url("img/header.png")
+}
+
+nav{
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+#btn_quotes{
+    color: white;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Montserrat";
+    background-color: black;
+    border: none;
+}
+
+#menu{
+    margin-left: 950px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.txt_block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 705px;
+    color: white;
+}
+
+.txt_block h1{
+    height: 160px;
+    font-size: 220px;
+    margin-top: 210px;
+    margin-bottom: 70px;
+    font-family: "Raleway";
+    font-weight: 100;
+    letter-spacing: 35px;
+}
+
+.txt_block p{
+    height: 62px;
+    font-size: 64px;
+    margin-top: 0px;
+    font-family: "Raleway";
+    font-weight: 700;
+    letter-spacing: 9px;
+}
+
+
+.btncircle {
+    margin-left: 710px;
+    margin-top:160px;
+}
+
+.btncircle button{
+    margin-right: 15px;
+    width: 17px;
+    height: 17px;
+    border: none;
+    border-radius:50%;
+    background-color: black;
+}
+
+#activebtn{
+    background-color: white;
+}
+
+.btncircle button:hover{
+    background-color: white;
+}
+
+.FreePSDtxt{
+    display: flex ;
+    flex-direction: column;
+    height: 675px;
+    font-family: "Raleway";
+}
+
+.FreePSDtxt h1{
+    margin-left: 548px;
+    font-weight: 200;
+    font-size: 60px;
+    margin-top: 88px;
+    margin-bottom: 0px;
+}
+.FreePSDtxt h2{
+    margin-left: 530px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.FreePSDtxt #short{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.FreePSDtxt img{
+    margin-top: 47px;
+    margin-left: 760px;
+    width: 80px;
+    height: 2px;
+}
+.FreePSDtxt #long{
+    word-break: break-all;
+    -moz-hyphens: auto;
+    width: 955px;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
