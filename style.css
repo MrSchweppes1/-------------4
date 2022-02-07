@@ -334,6 +334,7 @@ nav{
     color: #ffffff;
     transition: 1s;
 }
+
 .module5{
     font-family: "Raleway";
     align-items: center;
@@ -350,6 +351,7 @@ nav{
     font-size: 60px;
     font-weight: 700;
 }
+
 #txt{
     display: flex;
     flex-direction: row;
@@ -357,7 +359,284 @@ nav{
     font-size: 20px;
     font-weight: 200;
 }
+
 #txtbrd{
     margin-left: 8px;
     border-bottom: 2px solid white;
+}
+
+.module6{
+    display: flex;
+    font-family: "Raleway";
+    flex-direction: column;
+    height: 1315px;
+    background-color: #eaedf1;
+}
+
+.module6 h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-top: 104px;
+}
+#line3{
+    height: 3px;
+    width: 81px;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 29px;
+}
+
+.module6 button{
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+    width: 278px;
+    height: 60px;
+    background: transparent;
+    border-radius: 3%;
+    border: 2px black solid;
+    margin-left: 660px;
+}
+.imgblk1{
+    display: flex;
+    flex-direction: row;
+}
+.poster1{   
+    width: 760px;
+    height: 959px;
+    background-image: url(img/p1.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster1 h1{   
+    width: 545px;
+    height: 349px;
+    margin: 0px;
+    text-align: center;
+    font-size: 80px;
+    margin-left: 105px;
+    margin-top: 289px;
+    letter-spacing: 2px;   
+}
+.stroke{
+    display: flex;
+    flex-direction: row;
+    margin-left: 135px;
+    margin-top: 170px;
+}
+.stroke #p1{   
+    margin: 0px;
+    font-size: 20px;
+}
+.stroke #p2{   
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 326px;
+    margin-right: 10px;
+    height: 12px;
+    font-size: 15px;
+}
+.stroke image{
+    width: 31px;
+}
+.imgblk2{
+    margin-top: 99px;
+    width: 740px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+}
+.poster2{   
+    width: 740px;
+    height: 370px;
+    background-image: url(img/p2.png); 
+    text-align:start;
+    font-family: "Montserrat";
+    font-style: italic;
+}
+
+.poster2 h1{ 
+    margin: 0px;  
+    margin-top: 90px;
+    margin-left: 78px;
+    width: 400px;
+    height: 76px;
+    font-size: 36px;
+    margin-bottom: 19px;
+}
+
+.poster2 p{  
+    margin: 0px;
+    margin-left: 78px;   
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+}
+.imgblk3{
+    margin-top: 50px;
+    width: 740px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+}
+
+.poster3{
+    width: 329px;
+    height: 340px;  
+    background-image: url(img/p3.png);
+}
+.poster3 h1{
+    margin-left: 90px;
+    margin-top: 36px;
+    width: 180px;
+    height: 62px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.poster4{   
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    width: 330px;
+    height: 340px;
+    background-image: url(img/p4.png);
+    font-family: "Raleway";
+    text-align: center;
+    color: white;
+}
+.poster4 h1{   
+    margin-left: 92px;
+    margin-top: 177px;
+    width: 155px;
+    height: 23px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.poster4 h2{   
+    margin-left: 92px;
+    margin-top: 15px;
+    width: 152px;
+    height: 30px;
+    font-size: 37px;
+    font-weight: 700;
+}
+.module6 button:hover{
+    transition: 1s;
+    color: white;
+    background: black;
+}
+
+.module7 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 16px;
+    height: 540px;
+}
+
+.module7 a {
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.module7 h1 {
+    margin: 0;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.browse {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.subscribe h1 {
+    margin-bottom: 30px;
+}
+
+.subscribe form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe #ema {
+    border: none;
+    height: 41px;
+    width: 341px;
+    outline: none;
+    background-color: #e9edf1;
+    margin-bottom: 20px;
+}
+
+.subscribe #bema {
+    height: 41px;
+    width: 131px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.module8 {
+    display: flex;
+    height: 90px;
+    background-color: #e9edf1;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.module8 p {
+    margin-left: 100px;
+    margin-right: 400px;
+}
+
+#ic {
+    color: gray;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#share {
+    color: white;
+    margin-left: 10px;
 }
